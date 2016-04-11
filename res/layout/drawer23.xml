@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.megogrid.megoward.CustomDrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="2"
+        >
+
+        <RelativeLayout
+            android:id="@+id/camera_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/ca"
+            android:gravity="center"
+            android:onClick="startCamera"
+            android:layout_weight="1"
+            >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/image_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/image_bg111"
+            android:gravity="center"
+            android:onClick="startGallery"
+
+
+            >
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/whatYouWantInLeftDrawer"
+        android:layout_width="230dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left" >
+
+        <include
+            android:id="@+id/include_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/nav_frag" />
+    </RelativeLayout>
+
+
+</com.megogrid.megoward.CustomDrawerLayout>

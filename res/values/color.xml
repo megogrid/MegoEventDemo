@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name ="img_btn_autoboost_sel">#0099dd</color>
+    <color name ="white">#ffffff</color>
+    <color name="black_70">#B3000000</color>
+    <color name="my_header">#0099cc</color>
+    <color name="spinnerbg">#cbcbcb</color>
+    <color name="blackv5">#E6000000</color>
+    <color name="ddcolor">#6c3a3a</color>
+    <color name="blue_bg">#0000ff</color>
+    <color name="red">#7f00</color>
+    <color name="mygrey">#DDDDDD</color>
+    <color name="font_color">#138eff</color>
+    <color name="deep_red">#ff0000</color>
+    <color name="deep_white">#fff</color>
+    <color name="red2">#FF0000</color>
+    <color name="brown">#787878</color>
+    <color name="grey">#9fff</color>
+    <color name="black">#000000</color>
+    <color name="cyan">#9AFEFF</color>
+    <color name="bg">#FFBD82</color>
+    <color name="newblue">#0094d1</color>
+    <color name="newblack">#2e2e2e</color>
+    <color name="ornage">#ca5f46</color>
+    <color name="v2_app_bg">#fcfbfa</color>
+    <color name="v2_blue">#33a0c1</color>
+    <color name="green">#417500</color>
+    <color name="black_text">#6b6b6b</color>
+    <color name="fullads_color">#606161</color>
+    <color name="dark_grey">#aca3a3</color>
+    <color name="light_grey">#bbbbbb</color>
+    <color name="blue">#0094d1</color>
+    <color name="purple">#B93B8F</color>
+    <color name="ptcolor">#c6ff00</color>
+    <color name="greenobutton">#c6ff00</color>
+    <color name="broadcast_green">#c6ff00</color>
+    <color name="notification_header_color">#339fc1</color>
+    <color name="notification_desc_color">#70bf1b</color>
+    <color name="green3">#049009</color>
+    <color name="Black1">#000000</color>
+    <color name="Black">#000000</color>
+    <color name="mygreen">#4a9131</color>
+    <color name="blackgrey">#707070</color>
+    <color name="blackgrey_trans">#33707070</color>
+    <color name="v2_text_color_blue">#0b406d</color>
+    <color name="gray">#2b2b2b</color>
+    <color name="lang_gray">#ffff</color>
+    <color name="light_gray">#b7b7b7</color>
+    <color name="light_blue">#81DAF5</color>
+    <color name="blue1">#0094d1</color>
+    <color name="white_bg">#dedede</color>
+    <color name="transparent">#80000000</color>
+    <color name="transparentWhite">#80FFFFFF</color>
+    <color name="slide_panel">#151a1c</color>
+    <color name="DarkSeaGreen3">#99C68E</color>
+    <color name="greyblack">#4b4b4b</color>
+
+    <color name="header_color">#4f6d93</color>
+    <color name="drawer_bg">#314d72</color>
+    <color name="drawer_bg_s">#294261</color>
+    <color name="drawer_text">#adb5c2</color>
+    <color name="text_grey_color">#818181</color>
+
+
+
+
+    <color name="meward_nav_grey">#E1E1E1</color>
+
+</resources>

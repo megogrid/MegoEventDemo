@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+  
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/relativeLayoutForHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView_back_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/back"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+          
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:focusableInTouchMode="false">
+
+            <EditText
+                android:id="@+id/txt_headername_search"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textColorHint="#a4c588"
+                android:focusableInTouchMode="true"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:hint="Search ...."
+                android:textSize="20dp" />
+          
+
+            <ImageView
+                android:id="@+id/imgViewForMenu_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/search" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

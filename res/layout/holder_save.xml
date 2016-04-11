@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_holder"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutForHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/undo_btn"
+            android:onClick="onClickUndo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:src="@drawable/back"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/txt_headername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_toRightOf="@+id/undo_btn"
+            android:text="@string/app_name" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutForOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:id="@+id/linearLayoutForMenu3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/imgView_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:clickable="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutForMenu1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:visibility="visible"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutForMenu2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/save_btn"
+                    android:onClick="onClickSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/save1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
